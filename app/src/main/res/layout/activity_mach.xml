@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/eidbackground"
+    tools:context="ingeniumbd.com.eidwish.Mach">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnCubab"
+                android:layout_width="wrap_content"
+                android:layout_margin="2dp"
+                android:textSize="20sp"
+                android:text="কাবাব ইলিশ"
+                android:textStyle="italic"
+                android:textColor="#031073"
+                android:background="@drawable/buttonshape"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btnSosoli"
+                android:layout_margin="2dp"
+                android:layout_width="wrap_content"
+                android:textStyle="italic"
+                android:textColor="#031073"
+                android:textSize="20sp"
+                android:text=" শ্মাষলি মাছ"
+                android:background="@drawable/buttonshape"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/btnSufle"
+                android:layout_margin="2dp"
+                android:layout_width="wrap_content"
+                android:textStyle="italic"
+                android:textColor="#031073"
+                android:textSize="20sp"
+                android:text="ফিশ সুফলে"
+                android:background="@drawable/buttonshape"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/btnLobongo"
+                android:layout_margin="2dp"
+                android:layout_width="wrap_content"
+                android:textStyle="italic"
+                android:textColor="#031073"
+                android:textSize="20sp"
+                android:text="লবঙ্গ-রুই"
+                android:background="@drawable/buttonshape"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/btnPabda"
+                android:layout_margin="2dp"
+                android:layout_width="wrap_content"
+                android:textStyle="italic"
+                android:textColor="#031073"
+                android:textSize="20sp"
+                android:text="লেবু-পাবদা"
+                android:background="@drawable/buttonshape"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/btnPaturi"
+                android:layout_width="wrap_content"
+                android:layout_margin="2dp"
+                android:textSize="20sp"
+                android:text="কই মাছের পাতুরি"
+                android:textStyle="italic"
+                android:textColor="#031073"
+                android:background="@drawable/buttonshape"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btnKalia"
+                android:layout_margin="2dp"
+                android:layout_width="wrap_content"
+                android:textStyle="italic"
+                android:textColor="#031073"
+                android:textSize="20sp"
+                android:text="কাতলা মাছের কালিয়া"
+                android:background="@drawable/buttonshape"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/btnKofta"
+                android:layout_margin="2dp"
+                android:layout_width="wrap_content"
+                android:textStyle="italic"
+                android:textColor="#031073"
+                android:textSize="20sp"
+                android:text="মাছের কোফতা"
+                android:background="@drawable/buttonshape"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/btnKari"
+                android:layout_margin="2dp"
+                android:layout_width="wrap_content"
+                android:textStyle="italic"
+                android:textColor="#031073"
+                android:textSize="20sp"
+                android:text="মেথি কারি"
+                android:background="@drawable/buttonshape"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/btnKorma"
+                android:layout_margin="2dp"
+                android:layout_width="wrap_content"
+                android:textStyle="italic"
+                android:textColor="#031073"
+                android:textSize="20sp"
+                android:text="মাছের কোরমা"
+                android:background="@drawable/buttonshape"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

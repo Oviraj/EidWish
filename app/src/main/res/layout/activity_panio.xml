@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/eidbackground"
+    tools:context="ingeniumbd.com.eidwish.Panio">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnTetulerSorbot"
+                android:layout_width="wrap_content"
+                android:layout_margin="2dp"
+                android:textSize="20sp"
+                android:text="আম-তেঁতুলের শরবত"
+                android:textStyle="italic"
+                android:textColor="#031073"
+                android:background="@drawable/buttonshape"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btnPaperLachi"
+                android:layout_margin="2dp"
+                android:layout_width="wrap_content"
+                android:textStyle="italic"
+                android:textColor="#031073"
+                android:textSize="20sp"
+                android:text="পাকা পেঁপের লাচ্ছি"
+                android:background="@drawable/buttonshape"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/btnAngurerSorbot"
+                android:layout_margin="2dp"
+                android:layout_width="wrap_content"
+                android:textStyle="italic"
+                android:textColor="#031073"
+                android:textSize="20sp"
+                android:text="আঙুরের ঝাল-টক শরবত"
+                android:background="@drawable/buttonshape"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/btnMoslaCha"
+                android:layout_margin="2dp"
+                android:layout_width="wrap_content"
+                android:textStyle="italic"
+                android:textColor="#031073"
+                android:textSize="20sp"
+                android:text="মসালা চা"
+                android:background="@drawable/buttonshape"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/btnBenanaRos"
+                android:layout_margin="2dp"
+                android:layout_width="wrap_content"
+                android:textStyle="italic"
+                android:textColor="#031073"
+                android:textSize="20sp"
+                android:text="ফ্রোজেন বেনানা জুস"
+                android:background="@drawable/buttonshape"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/btnTajaRos"
+                android:layout_width="wrap_content"
+                android:layout_margin="2dp"
+                android:textSize="20sp"
+                android:text="তাজা রসের পাঞ্চ"
+                android:textStyle="italic"
+                android:textColor="#031073"
+                android:background="@drawable/buttonshape"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btnBorhani"
+                android:layout_margin="2dp"
+                android:layout_width="wrap_content"
+                android:textStyle="italic"
+                android:textColor="#031073"
+                android:textSize="20sp"
+                android:text="বোরহানি"
+                android:background="@drawable/buttonshape"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/btnChirarLachi"
+                android:layout_margin="2dp"
+                android:layout_width="wrap_content"
+                android:textStyle="italic"
+                android:textColor="#031073"
+                android:textSize="20sp"
+                android:text="চিঁড়ার লাচ্ছি"
+                android:background="@drawable/buttonshape"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/btnBadamLachi"
+                android:layout_margin="2dp"
+                android:layout_width="wrap_content"
+                android:textStyle="italic"
+                android:textColor="#031073"
+                android:textSize="20sp"
+                android:text="আম-দইয়ের বাদাম লাচ্ছি"
+                android:background="@drawable/buttonshape"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/btnPearaSorbot"
+                android:layout_margin="2dp"
+                android:layout_width="wrap_content"
+                android:textStyle="italic"
+                android:textColor="#031073"
+                android:textSize="20sp"
+                android:text="পেয়ারার সরবত"
+                android:background="@drawable/buttonshape"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

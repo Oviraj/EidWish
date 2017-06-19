@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/eidbackground"
+    tools:context="ingeniumbd.com.eidwish.Wallpaper">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:src="@drawable/eidone"/>
+            <Button
+                android:id="@+id/btnNasta"
+                android:layout_width="wrap_content"
+                android:layout_margin="2dp"
+                android:textSize="20sp"
+                android:text="নাস্তা"
+                android:textStyle="italic"
+                android:textColor="#031073"
+                android:background="@drawable/buttonshape"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btnMach"
+                android:layout_margin="2dp"
+                android:layout_width="wrap_content"
+                android:textStyle="italic"
+                android:textColor="#031073"
+                android:textSize="20sp"
+                android:text="মাছ"
+                android:background="@drawable/buttonshape"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/btnMangso"
+                android:layout_margin="2dp"
+                android:layout_width="wrap_content"
+                android:textStyle="italic"
+                android:textColor="#031073"
+                android:textSize="20sp"
+                android:text="মাংস"
+                android:background="@drawable/buttonshape"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/btnPanio"
+                android:layout_margin="2dp"
+                android:layout_width="wrap_content"
+                android:textStyle="italic"
+                android:textColor="#031073"
+                android:textSize="20sp"
+                android:text="পানীয়"
+                android:background="@drawable/buttonshape"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/btnMistanno"
+                android:layout_margin="2dp"
+                android:layout_width="wrap_content"
+                android:textStyle="italic"
+                android:textColor="#031073"
+                android:textSize="20sp"
+                android:text="মিষ্টান্ন"
+                android:background="@drawable/buttonshape"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

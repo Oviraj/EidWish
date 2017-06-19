@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/eidbackground"
+    tools:context="ingeniumbd.com.eidwish.Mistanno">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnFolerLachaSemy"
+                android:layout_width="wrap_content"
+                android:layout_margin="2dp"
+                android:textSize="20sp"
+                android:text="ফলের লাচ্ছা সেমাই"
+                android:textStyle="italic"
+                android:textColor="#031073"
+                android:background="@drawable/buttonshape"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btnDimLachaSemy"
+                android:layout_margin="2dp"
+                android:layout_width="wrap_content"
+                android:textStyle="italic"
+                android:textColor="#031073"
+                android:textSize="17sp"
+                android:text="ডিম লাচ্ছা সেমাইয়ের জাফরানি জর্দা"
+                android:background="@drawable/buttonshape"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/btnJafraniJorda"
+                android:layout_margin="2dp"
+                android:layout_width="wrap_content"
+                android:textStyle="italic"
+                android:textColor="#031073"
+                android:textSize="20sp"
+                android:text="জাফরানি জর্দা"
+                android:background="@drawable/buttonshape"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/btnKosirSemy"
+                android:layout_margin="2dp"
+                android:layout_width="wrap_content"
+                android:textStyle="italic"
+                android:textColor="#031073"
+                android:textSize="20sp"
+                android:text="ক্ষীর সেমাই"
+                android:background="@drawable/buttonshape"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/btnKorimCake"
+                android:layout_margin="2dp"
+                android:layout_width="wrap_content"
+                android:textStyle="italic"
+                android:textColor="#031073"
+                android:textSize="20sp"
+                android:text="দই ক্রিম কেক"
+                android:background="@drawable/buttonshape"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/btnDimerHalua"
+                android:layout_width="wrap_content"
+                android:layout_margin="2dp"
+                android:textSize="20sp"
+                android:text="ডিমের হালুয়া"
+                android:textStyle="italic"
+                android:textColor="#031073"
+                android:background="@drawable/buttonshape"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btnDudherPaes"
+                android:layout_margin="2dp"
+                android:layout_width="wrap_content"
+                android:textStyle="italic"
+                android:textColor="#031073"
+                android:textSize="20sp"
+                android:text="আম দুধের পায়েস"
+                android:background="@drawable/buttonshape"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/btnChanrPuding"
+                android:layout_margin="2dp"
+                android:layout_width="wrap_content"
+                android:textStyle="italic"
+                android:textColor="#031073"
+                android:textSize="20sp"
+                android:text="আম-ছানার পুডিং"
+                android:background="@drawable/buttonshape"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/btnMojadarSondes"
+                android:layout_margin="2dp"
+                android:layout_width="wrap_content"
+                android:textStyle="italic"
+                android:textColor="#031073"
+                android:textSize="20sp"
+                android:text="মজাদার সন্দেশ"
+                android:background="@drawable/buttonshape"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/btnFolerFaluda"
+                android:layout_margin="2dp"
+                android:layout_width="wrap_content"
+                android:textStyle="italic"
+                android:textColor="#031073"
+                android:textSize="20sp"
+                android:text="ফলের ফালুদা"
+                android:background="@drawable/buttonshape"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
